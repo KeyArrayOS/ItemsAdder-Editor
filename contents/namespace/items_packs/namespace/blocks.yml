@@ -1,0 +1,1874 @@
+info:
+  namespace: empalmecraft
+items:
+  c_stone:
+    display_name: Concreto Solido
+    permission: c_stone
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - block/c_stone.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+
+  palm_block_1:
+    display_name: Tronco de Palmera
+    permission: palm_block_1
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - block/tronco_palmera.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+  palm_block_2:
+    display_name: Tronco de Palmera
+    permission: palm_block_2
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/tronco_palmera
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+
+  palm_block_3:
+    display_name: Tronco de Palmera
+    permission: palm_block_3
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/tronco_palmera_2
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+
+  palm_block_4:
+    display_name: Tronco de Palmera
+    permission: palm_block_4
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/tronco_palmera_3
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+
+  palm_block_5:
+    display_name: Tronco de Palmera
+    permission: palm_block_5
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/tronco_palmera_4
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+
+  palm_block_6:
+    display_name: Tronco de Palmera
+    permission: palm_block_6
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/tronco_palmera_5
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+
+  palm_block_7:
+    display_name: Tronco de Palmera
+    permission: palm_block_7
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/tronco_palmera_6
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+
+  palm_leaves:
+    display_name: Hojas de Palmera
+    permission: palm_leaves
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/palm_leaves
+
+  malla_metal:
+    display_name: Malla Ciclonica
+    permission: malla_cicl
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/malla_metal
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_TRANSPARENT
+          rotx: 0
+          roty: 0
+          break_particles: ITEM
+  
+  malla_metal_r:
+    display_name: Malla Ciclonica
+    permission: malla_cicl
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/malla_metal
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_TRANSPARENT
+          rotx: 0
+          roty: 90
+          break_particles: ITEM
+
+  malla_m_esq:
+    display_name: Malla Ciclonica
+    permission: malla_cicl
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/malla_m_esq
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_TRANSPARENT
+          rotx: 0
+          roty: 180
+          break_particles: ITEM
+
+  malla_m_esq_s:
+    display_name: Malla Ciclonica
+    permission: malla_cicl
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/malla_m_esq
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_TRANSPARENT
+          rotx: 0
+          roty: 0
+          break_particles: ITEM
+
+  malla_m_esq_e:
+    display_name: Malla Ciclonica
+    permission: malla_cicl
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/malla_m_esq
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_TRANSPARENT
+          rotx: 0
+          roty: 270
+          break_particles: ITEM
+
+  malla_m_esq_w:
+    display_name: Malla Ciclonica
+    permission: malla_cicl
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/malla_m_esq
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_TRANSPARENT
+          rotx: 0
+          roty: 90
+          break_particles: ITEM
+
+  tubo_metalico:
+    display_name: Tubo Metalico
+    permission: tubo_metalico
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/tubo_metal
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+          rotx: 0
+          roty: 180
+          shift_up: true
+          break_particles: ITEM
+
+  tubo_metalico_s:
+    display_name: Tubo Metalico
+    permission: tubo_metalico
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/tubo_metal
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+          rotx: 0
+          roty: 0
+          shift_up: true
+          break_particles: ITEM
+
+  tubo_metalico_e:
+    display_name: Tubo Metalico
+    permission: tubo_metalico
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/tubo_metal
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+          rotx: 0
+          roty: 270
+          shift_up: true
+          break_particles: ITEM
+
+  tubo_metalico_w:
+    display_name: Tubo Metalico
+    permission: tubo_metalico
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/tubo_metal
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+          rotx: 0
+          roty: 90
+          shift_up: true
+          break_particles: ITEM
+  
+  acera:
+    display_name: Acera de concreto
+    permission: acera
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/acera
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 0
+          break_particles: ITEM
+
+  acera_s:
+    display_name: acera
+    permission: acera
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/acera
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 180
+          break_particles: ITEM
+
+  acera_e:
+    display_name: acera
+    permission: acera
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/acera
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 90
+          break_particles: ITEM
+
+  acera_w:
+    display_name: acera
+    permission: acera
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/acera
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 270
+          break_particles: ITEM
+
+  acera_esq:
+    display_name: Acera de concreto esquina
+    permission: acera_esq
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/acera_esq
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 0
+          break_particles: ITEM
+
+  acera_esq_s:
+    display_name: Acera de concreto esquina
+    permission: acera_esq
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/acera_esq
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 180
+          break_particles: ITEM
+
+  acera_esq_e:
+    display_name: Acera de concreto esquina
+    permission: acera_esq
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/acera_esq
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 90
+          break_particles: ITEM
+
+  acera_esq_w:
+    display_name: Acera de concreto esquina
+    permission: acera_esq
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/acera_esq
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 270
+          break_particles: ITEM
+
+  acera_dot:
+    display_name: Acera de concreto esquinero
+    permission: acera_dot
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/acera_dot
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 0
+          break_particles: ITEM
+
+  acera_dot_s:
+    display_name: Acera de concreto esquinero
+    permission: acera_dot
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/acera_dot
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 180
+          break_particles: ITEM
+
+  acera_dot_e:
+    display_name: Acera de concreto esquinero
+    permission: acera_dot
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/acera_dot
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 90
+          break_particles: ITEM
+
+  acera_dot_w:
+    display_name: Acera de concreto esquinero
+    permission: acera_dot
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/acera_dot
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 270
+          break_particles: ITEM
+  
+  acera_amarilla:
+    display_name: Acera amarilla
+    permission: acera_amarilla
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/acera_am
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 0
+          break_particles: ITEM
+
+  acera_amarilla_s:
+    display_name: Acera amarilla
+    permission: acera_amarilla
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/acera_am
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 180
+          break_particles: ITEM
+
+  acera_amarilla_e:
+    display_name: Acera amarilla
+    permission: acera_amarilla
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/acera_am
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 90
+          break_particles: ITEM
+
+  acera_amarilla_w:
+    display_name: Acera amarilla
+    permission: acera_amarilla
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/acera_am
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 270
+          break_particles: ITEM
+
+  acera_amarilla_dot:
+    display_name: Acera amarilla
+    permission: acera_amarilla
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/acera_dot_am
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 0
+          break_particles: ITEM
+
+  acera_amarilla_dot_s:
+    display_name: Acera amarilla
+    permission: acera_amarilla
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/acera_dot_am
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 180
+          break_particles: ITEM
+
+  acera_amarilla_dot_e:
+    display_name: Acera amarilla
+    permission: acera_amarilla
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/acera_dot_am
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 90
+          break_particles: ITEM
+
+  acera_amarilla_dot_w:
+    display_name: Acera amarilla
+    permission: acera_amarilla
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/acera_dot_am
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 270
+          break_particles: ITEM
+
+  acera_amarilla_esq:
+    display_name: Acera amarilla
+    permission: acera_amarilla
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/acera_esq_am
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 0
+          break_particles: ITEM
+
+  acera_amarilla_esq_s:
+    display_name: Acera amarilla
+    permission: acera_amarilla
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/acera_esq_am
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 180
+          break_particles: ITEM
+
+  acera_amarilla_esq_e:
+    display_name: Acera amarilla
+    permission: acera_amarilla
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/acera_esq_am
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 90
+          break_particles: ITEM
+
+  acera_amarilla_esq_w:
+    display_name: Acera amarilla
+    permission: acera_amarilla
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/acera_esq_am
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 270
+          break_particles: ITEM
+
+  acera_azul:
+    display_name: Acera azul
+    permission: acera_azul
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/acera_az
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 0
+          break_particles: ITEM
+
+  acera_azul_s:
+    display_name: Acera azul
+    permission: acera_azul
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/acera_az
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE 
+          rotx: 0
+          roty: 180
+          break_particles: ITEM
+
+  acera_azul_e:
+    display_name: Acera azul
+    permission: acera_azul
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/acera_az
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 90
+          break_particles: ITEM
+
+  acera_azul_w:
+    display_name: Acera azul
+    permission: acera_azul
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/acera_az
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 270
+          break_particles: ITEM
+
+  acera_azul_dot:
+    display_name: Acera azul
+    permission: acera_azul
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/acera_dot_az
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 0
+          break_particles: ITEM
+
+  acera_azul_dot_s:
+    display_name: Acera azul
+    permission: acera_azul
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/acera_dot_az
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 180
+          break_particles: ITEM
+
+  acera_azul_dot_e:
+    display_name: Acera azul
+    permission: acera_azul
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/acera_dot_az
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 90
+          break_particles: ITEM
+
+  acera_azul_dot_w:
+    display_name: Acera azul
+    permission: acera_azul
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/acera_dot_az
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 270
+          break_particles: ITEM
+  
+  acera_azul_esq:
+    display_name: Acera azul
+    permission: acera_azul
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/acera_esq_az
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 0
+          break_particles: ITEM
+
+  acera_azul_esq_s:
+    display_name: Acera azul
+    permission: acera_azul
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/acera_esq_az
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 180
+          break_particles: ITEM
+
+  acera_azul_esq_e:
+    display_name: Acera azul
+    permission: acera_azul
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/acera_esq_az
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 90
+          break_particles: ITEM
+
+  acera_azul_esq_w:
+    display_name: Acera azul
+    permission: acera_azul
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/acera_esq_az
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 270
+          break_particles: ITEM
+  
+  acera_roja:
+    display_name: Acera roja
+    permission: acera_roja
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/acera_ro
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 0
+          break_particles: ITEM
+
+  acera_roja_s:
+    display_name: Acera roja
+    permission: acera_roja
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/acera_ro
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 180
+          break_particles: ITEM
+
+  acera_roja_e:
+    display_name: Acera roja
+    permission: acera_roja
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/acera_ro
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 90
+          break_particles: ITEM
+
+  acera_roja_w:
+    display_name: Acera roja
+    permission: acera_roja
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/acera_ro
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 270
+          break_particles: ITEM
+
+  acera_roja_dot:
+    display_name: Acera roja
+    permission: acera_roja
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/acera_dot_ro
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 0
+          break_particles: ITEM
+
+  acera_roja_dot_s:
+    display_name: Acera roja
+    permission: acera_roja
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/acera_dot_ro
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 180
+          break_particles: ITEM
+
+  acera_roja_dot_e:
+    display_name: Acera roja
+    permission: acera_roja
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/acera_dot_ro
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 90
+          break_particles: ITEM
+
+  acera_roja_dot_w:
+    display_name: Acera roja
+    permission: acera_roja
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/acera_dot_ro
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 270
+          break_particles: ITEM
+
+  acera_roja_esq:
+    display_name: Acera roja
+    permission: acera_roja
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/acera_esq_ro
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 0
+          break_particles: ITEM
+
+  acera_roja_esq_s:
+    display_name: Acera roja
+    permission: acera_roja
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/acera_esq_ro
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 180
+          break_particles: ITEM
+
+  acera_roja_esq_e:
+    display_name: Acera roja
+    permission: acera_roja
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/acera_esq_ro
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 90
+          break_particles: ITEM
+
+  acera_roja_esq_w:
+    display_name: Acera roja
+    permission: acera_roja
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/acera_esq_ro
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 270
+          break_particles: ITEM
+
+  db_c_stone:
+    display_name: Bloque Diagonal de Concreto Solido
+    permission: db_c_stone
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/db_cstone
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_TRANSPARENT
+          rotx: 0
+          roty: 0
+          break_particles: ITEM
+
+  db_c_stone_s:
+    display_name: Bloque Diagonal de Concreto Solido
+    permission: db_c_stone
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/db_cstone
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_TRANSPARENT
+          rotx: 0
+          roty: 180
+          break_particles: ITEM
+
+  db_c_stone_e:
+    display_name: Bloque Diagonal de Concreto Solido
+    permission: db_c_stone
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/db_cstone
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_TRANSPARENT
+          rotx: 0
+          roty: 90
+          break_particles: ITEM
+
+  db_c_stone_w:
+    display_name: Bloque Diagonal de Concreto Solido
+    permission: db_c_stone
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/db_cstone
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_TRANSPARENT
+          rotx: 0
+          roty: 270
+          break_particles: ITEM
+  
+  db_smooth_ss:
+    display_name: Bloque Diagonal de Arenisca Suave
+    permission: db_smooth_ss
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/db_smooth_ss
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_TRANSPARENT
+          rotx: 0
+          roty: 0
+          break_particles: ITEM
+
+  db_smooth_ss_s:
+    display_name: Bloque Diagonal de Arenisca Suave
+    permission: db_smooth_ss
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/db_smooth_ss
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_TRANSPARENT
+          rotx: 0
+          roty: 180
+          break_particles: ITEM
+
+  db_smooth_ss_e:
+    display_name: Bloque Diagonal de Arenisca Suave
+    permission: db_smooth_ss
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/db_smooth_ss
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_TRANSPARENT
+          rotx: 0
+          roty: 90
+          break_particles: ITEM
+
+  db_smooth_ss_w:
+    display_name: Bloque Diagonal de Arenisca Suave
+    permission: db_smooth_ss
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/db_smooth_ss
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_TRANSPARENT
+          rotx: 0
+          roty: 270
+          break_particles: ITEM
+
+  bar_est_am:
+    display_name: Barra de Estacionamiento Amarilla
+    permission: barra_est_am
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/barra_est_am
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+          rotx: 0
+          roty: 0
+          break_particles: ITEM
+
+  bar_est_am_rot:
+    display_name: Barra de Estacionamiento Amarilla
+    permission: barra_est_am
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/barra_est_am
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+          rotx: 0
+          roty: 90
+          break_particles: ITEM
+  
+  bar_est_az:
+    display_name: Barra de Estacionamiento Azul
+    permission: barra_est_az
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/barra_est_az
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+          rotx: 0
+          roty: 0
+          break_particles: ITEM
+  
+  bar_est_az_rot:
+    display_name: Barra de Estacionamiento Azul
+    permission: barra_est_az
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/barra_est_az
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+          rotx: 0
+          roty: 90
+          break_particles: ITEM
+  
+  deco_qubo:
+    display_name: Decoracion de Tienda Qubo
+    permission: deco_qubo
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/deco_qubo
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_TRANSPARENT
+          rotx: 0
+          roty: 180
+          break_particles: ITEM
+
+  deco_qubo_s:
+    display_name: Decoracion de Tienda Qubo
+    permission: deco_qubo
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/deco_qubo
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_TRANSPARENT
+          rotx: 0
+          roty: 0
+          break_particles: ITEM
+
+  deco_qubo_e:
+    display_name: Decoracion de Tienda Qubo
+    permission: deco_qubo
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/deco_qubo
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_TRANSPARENT
+          rotx: 0
+          roty: 270
+          break_particles: ITEM
+
+  deco_qubo_w:
+    display_name: Decoracion de Tienda Qubo
+    permission: deco_qubo
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/deco_qubo
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_TRANSPARENT
+          rotx: 0
+          roty: 90
+          break_particles: ITEM
+
+  tronco_mezq_raiz:
+    display_name: Tronco raiz de Mezquite
+    permission: Tronco_mezq
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/tronco_1
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 0
+          break_particles: ITEM
+  
+  tronco_mezq_raiz_w:
+    display_name: Tronco raiz de Mezquite con Cal
+    permission: Tronco_mezq
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/tronco_mw
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 0
+          break_particles: ITEM
+
+  tronco_mesquite:
+    display_name: Tronco de Mezquite
+    permission: Tronco_mezq
+    resource:
+      generate: false
+      material: PAPER
+      model_path: block/tronco_mezq
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 0
+          break_particles: ITEM
+  
+  tronco_mesquite_w:
+    display_name: Tronco de Mezquite con Cal
+    permission: Tronco_mezq
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+        - block/mezquite_w_log.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 0
+          break_particles: ITEM
+
+  tronco_mezq:
+    display_name: Tronco de Mezquite
+    permission: Tronco_mezq
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/tronco_2
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 0
+          break_particles: ITEM
+  
+  tronco_mezq_rot:
+    display_name: Tronco de Mezquite
+    permission: Tronco_mezq
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/tronco_rot
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 0
+          break_particles: ITEM
+
+  tronco_mezq_rot_x:
+    display_name: Tronco de Mezquite
+    permission: Tronco_mezq
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/tronco_rot
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 90
+          break_particles: ITEM
+
+  tronco_mezq_w:
+    display_name: Tronco de Mezquite con Cal
+    permission: Tronco_mezq
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/tronco_2_mw
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 0
+          break_particles: ITEM
+
+  rama_mezq:
+    display_name: Rama de Mezquite
+    permission: Rama_mezq
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/rama
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 0
+          break_particles: ITEM
+
+  rama_mezq_s:
+    display_name: Rama de Mezquite
+    permission: Rama_mezq
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/rama
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 180
+          break_particles: ITEM
+
+  rama_mezq_e:
+    display_name: Rama de Mezquite
+    permission: Rama_mezq
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/rama
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 90
+          break_particles: ITEM
+
+  rama_mezq_w:
+    display_name: Rama de Mezquite
+    permission: Rama_mezq
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/rama
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 270
+          break_particles: ITEM
+  
+  rama_mezq_2:
+    display_name: Rama de Mezquite
+    permission: Rama_mezq
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/rama_2
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 0
+          break_particles: ITEM
+
+  rama_mezq_2_s:
+    display_name: Rama de Mezquite
+    permission: Rama_mezq
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/rama_2
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 180
+          break_particles: ITEM
+
+  rama_mezq_2_e:
+    display_name: Rama de Mezquite
+    permission: Rama_mezq
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/rama_2
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 90
+          break_particles: ITEM
+
+  rama_mezq_2_w:
+    display_name: Rama de Mezquite
+    permission: Rama_mezq
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/rama_2
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 270
+          break_particles: ITEM
+
+  rama_mezq_3:
+    display_name: Rama de Mezquite
+    permission: Rama_mezq
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/rama_3
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          rotx: 0
+          roty: 0
+          break_particles: ITEM
+  
+  mezquite_leaves:
+    display_name: Hojas de Mezquite
+    permission: hojas_mezq
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/mezquite_leaves
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_TRANSPARENT
+          rotx: 0
+          roty: 0
+          break_particles: ITEM
+  
+  tejas_barro:
+    display_name: Tejas de Barro
+    permission: tejas_barro
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/tejas
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_TRANSPARENT
+          rotx: 0
+          roty: 0
+          break_particles: ITEM
+
+  tejas_barro_s:
+    display_name: Tejas de Barro
+    permission: tejas_barro
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/tejas
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_TRANSPARENT
+          rotx: 0
+          roty: 180
+          break_particles: ITEM
+
+  tejas_barro_e:
+    display_name: Tejas de Barro
+    permission: tejas_barro
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/tejas
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_TRANSPARENT
+          rotx: 0
+          roty: 90
+          break_particles: ITEM
+
+  tejas_barro_w:
+    display_name: Tejas de Barro
+    permission: tejas_barro
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/tejas
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_TRANSPARENT
+          rotx: 0
+          roty: 270
+          break_particles: ITEM
+  
+  tejas_block:
+    display_name: Tejas
+    permission: tejas_block
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - block/tejas.png
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+  
+  tejas_galvanizada:
+    display_name: Tejas Galvanizadas
+    permission: tejas_galvanizada
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/lam_gal
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_TRANSPARENT
+          rotx: 0
+          roty: 0
+          break_particles: ITEM
+  
+  tejas_galvanizada_s:
+    display_name: Tejas Galvanizadas
+    permission: tejas_galvanizada
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/lam_gal
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_TRANSPARENT
+          rotx: 0
+          roty: 180
+          break_particles: ITEM
+
+  tejas_galvanizada_e:
+    display_name: Tejas Galvanizadas
+    permission: tejas_galvanizada
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/lam_gal
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_TRANSPARENT  
+          rotx: 0
+          roty: 90
+          break_particles: ITEM
+
+  tejas_galvanizada_w:
+    display_name: Tejas Galvanizadas
+    permission: tejas_galvanizada
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/lam_gal
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_TRANSPARENT
+          rotx: 0
+          roty: 270
+          break_particles: ITEM
+  
+  acera_bc:
+    display_name: Acera de concreto
+    permission: acera
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/acera_block
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+          rotx: 0
+          roty: 0
+          break_particles: ITEM
+
+  acera_bc_s:
+    display_name: Acera de concreto
+    permission: acera
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/acera_block
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+          rotx: 0
+          roty: 180
+          break_particles: ITEM 
+
+  acera_bc_e:
+    display_name: Acera de concreto
+    permission: acera
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/acera_block
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+          rotx: 0
+          roty: 90
+          break_particles: ITEM
+
+  acera_bc_w:
+    display_name: Acera de concreto
+    permission: acera
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/acera_block
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+          rotx: 0
+          roty: 270
+          break_particles: ITEM
+  
+  valla_met_x:
+    display_name: Valla Metalica
+    permission: valla_metal
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/valla_metal
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+          rotx: 0
+          roty: 0
+          break_particles: ITEM
+
+  valla_met_rot:
+    display_name: Valla Metalica
+    permission: valla_metal
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/valla_metal
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+          rotx: 0
+          roty: 90
+          break_particles: ITEM
+
+  valla_met_esq:
+    display_name: Valla Metalica
+    permission: valla_metal
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/valla_metal_esq
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+          rotx: 0
+          roty: 0
+          break_particles: ITEM
+
+  valla_met_esq_s:
+    display_name: Valla Metalica
+    permission: valla_metal
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/valla_metal_esq
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+          rotx: 0
+          roty: 180
+          break_particles: ITEM
+
+  valla_met_esq_w:
+    display_name: Valla Metalica
+    permission: valla_metal
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/valla_metal_esq
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+          rotx: 0
+          roty: 270
+          break_particles: ITEM
+
+  valla_met_esq_e:
+    display_name: Valla Metalica
+    permission: valla_metal
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/valla_metal_esq
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+          rotx: 0
+          roty: 90
+          break_particles: ITEM
+  
+  bloque_estructura:
+    display_name: Bloque de Estructura Azul
+    permission: bloque_estructura
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/estructural_azul
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_TRANSPARENT
+          rotx: 0
+          roty: 0
+          break_particles: ITEM
+  
+  poste_m_n:
+    display_name: Poste de Marmol Naranja
+    permission: poste_m_n
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/poste_mn
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_TRANSPARENT
+          rotx: 0
+          roty: 0
+          break_particles: ITEM
+  
+  barras_valla:
+    display_name: Barras de Valla Blanca
+    permission: barras_valla
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/barras_valla
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+          rotx: 0
+          roty: 0
+          break_particles: ITEM
+
+  barras_valla_rot:
+    display_name: Barras de Valla Blanca
+    permission: barras_valla
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/barras_valla
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+          rotx: 0
+          roty: 90
+          break_particles: ITEM
+  
+  lamina_gal:
+    display_name: Lamina Galvanizada
+    permission: lamina_galvanizada
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/lamina_gal
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+          rotx: 0
+          roty: 0
+          break_particles: ITEM
+  
+  lamina_gal_rot:
+    display_name: Lamina Galvanizada
+    permission: lamina_galvanizada
+    resource:
+      material: PAPER
+      generate: false
+      model_path: block/lamina_gal
+    specific_properties:
+      block:
+        placed_model:
+          type: REAL_WIRE
+          rotx: 0
+          roty: 90
+          break_particles: ITEM
